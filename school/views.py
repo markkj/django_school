@@ -14,7 +14,8 @@ class SchoolViewSet(viewsets.ModelViewSet):
     """
     queryset  = School.objects.all()
     serializer_class = SchoolSerializer
-
+    search_fields = ['name']
+    filter_backends = (filters.SearchFilter,)
     
 
 class StudentViewSet(viewsets.ModelViewSet):
