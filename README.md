@@ -11,6 +11,7 @@ Step 1 : Take 9 minutes
 
 Step 2 : Take 20 minutes
  - Created School and Student ModelViewSet
+ 
 Bonus : Take 8 minutes
  - Created school/?search={byname}
  - Created student/?search={byfirst_name}
