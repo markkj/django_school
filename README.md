@@ -15,3 +15,4 @@ Step 2 : Take 20 minutes
 Bonus : Take 8 minutes
  - Created school/?search={byname}
  - Created student/?search={byfirst_name}
+ - Added swagger API Doc. swagger/
